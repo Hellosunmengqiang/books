@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>租车</title>
+    <script src="static/js/index.js"></script>
+    <script src="static/js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+<div class="header">
+        <div class="header_left">
+            <div class="logo"></div>
+            <ul class="a">
+                <li>首页</li>
+                <li>上门取送</li>
+                <li>到店去还</li>
+                <li>长租</li>
+                <li>企业租车</li>
+                <li>顺风车</li>
+                <li>门店</li>
+                <li>国际租车</li>
+                <%String bid=(String)request.getParameter("bid");%>
+                <li>序号<%bid%></li>
+            </ul>
+        </div>
+        <div class="header_right">
+            <ul class="register">
+                
+                <li><a href="index.html">注销</a></li>
+            </ul>
+            <ul class="title">
+                <li>我的远大</li>
+                <li><span class="tel"></span>666-666-6666</li>
+            </ul>
+
+        </div>
+    </div>
+<div class="content">
+    <div class="content_in">
+        <div class="T_left">
+       <div class="car_name">
+           <h2>日产智行</h2>
+           <button>立即预定</button>
+       </div>
+            <div class="pic">
+                <!-- <img src="static/img/car1.jpg" alt="">-->
+                 <img src="static/img/a1.jpg" alt=""><!-- a2 a3 -->
+            </div>
+        </div>
+        <div class="T_right">
+            <p>特价专区</p>
+            <input type="text">
+            <img src="https://image.zuchecdn.com/newversion/common/activenotcar.jpg" alt="">
+        </div>
+        <div class="content_bottom">
+            <h2><span>日产智行</span>租车基本信息</h2>
+            <ul class="zcxx1">
+                <li><span class="pp">&nbsp;</span>品　　牌：<span>日产</span></li>
+                <li><span class="cx">&nbsp;</span>车　　系：<span>智行</span></li>
+                <li class="nonebd"><b class="ndk">&nbsp;</b>年代 款：<span>2018</span></li>
+                <li class="nonebd"><b class="pzk">&nbsp;</b>配 置 款：<span>品悠版</span></li>
+            </ul>
+            <h2><span>日产智行</span>租车配置信息</h2>
+            <ul class="zcxx2">
+                <li><spanspan class="zws">&nbsp;</spanspan>座 位 数：<span>4</span></li>
+                <li><span class="cms">&nbsp;</span>车 门 数：<span>4</span></li>
+                <li><span class="rllx">&nbsp;</span>燃料类型：<span>汽油</span></li>
+                <li><span class="bsxlx">&nbsp;</span>变速箱类型：<span>AT</span></li>
+                <li><span class="pl">&nbsp;</span>排　　量：<span>1598</span></li>
+                <li><span class="rybh">&nbsp;</span>燃油标号：<span>92-93汽油</span></li>
+                <li><span class="qdfs">&nbsp;</span>驱动方式：<span>前驱</span></li>
+                <li><span class="fdjjqxs">&nbsp;</span>发动机进气形式：<span>自然吸气</span></li>
+                <li><span class="tc">&nbsp;</span>天　　窗：<span>有</span></li>
+                <li><span class="yxrl">&nbsp;</span>油箱容量：<span>55</span></li>
+                <li><span class="yx">&nbsp;</span>音　　箱：<span>4</span></li>
+                <li><span class="zy">&nbsp;</span>座　　椅：<span>皮革座椅</span></li>
+                <li><span class="tc">&nbsp;</span>倒车雷达：<span>有</span></li>
+                <li><span class="qin">&nbsp;</span>气　　囊：<span>2</span></li>
+                <li class="nonebd"><b class="dvd">&nbsp;</b>DVD / CD：<span>CD</span></li>
+                <li class="nonebd"><b class="gps">&nbsp;</b>GPS导航：<span>有</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer">
+</div>
+</body>
+</html>
